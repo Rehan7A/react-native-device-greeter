@@ -17,6 +17,10 @@ class DeviceGreeterModule(reactContext: ReactApplicationContext) :
     return a * b
   }
 
+  override fun add(a: Double, b: Double): Double {
+    return a + b
+  }
+
   companion object {
     const val NAME = "DeviceGreeter"
   }
